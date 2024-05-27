@@ -1,0 +1,200 @@
+/* src\components\healthtracker.css */
+
+.body { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	font-family: sans-serif; 
+	background-color: #fcf1ed;
+	height: 100vh; 
+	color: white; 
+    padding-top: 140px;
+} 
+
+.body h1 { 
+	font-size: 32px;
+	background-image: linear-gradient(to right,#FFB1B1, #FB9AD1); 
+} 
+
+.body h3 { 
+	background-image: linear-gradient(to right,#FFB1B1, #FB9AD1); 
+} 
+
+.body h1, 
+.body h3 { 
+	color: transparent; 
+	background-clip: text; 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent; 
+} 
+
+.body .app { 
+    margin-top: 40%;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	width: 650px; 
+	margin: 1rem auto; 
+	padding: 8px; 
+	gap: 20px; 
+} 
+
+.body .inputs { 
+	width: 100%; 
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	gap: 20px; 
+	height: fit-content; 
+} 
+
+.body .inputs>div { 
+	height: 100%; 
+	display: flex; 
+	justify-content: space-between; 
+	flex-direction: column; 
+} 
+
+.body label { 
+	font-size: 0.9rem; 
+} 
+
+.body input, 
+.body label { 
+	display: block; 
+	color: black;
+} 
+
+.body input { 
+	margin-top: 8px; 
+	margin-bottom: 5px; 
+	padding: 10px; 
+	font-size: large; 
+	background-color: #FFDFDF; 
+	color: black; 
+	border: none; 
+	border-radius: 5px; 
+	width: 90%; 
+} 
+
+.body input:focus-visible { 
+	outline: 2px solid #ec4899; 
+} 
+
+.body input::-webkit-outer-spin-button, 
+.body input::-webkit-inner-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+} 
+
+.body button{ display: block; cursor: pointer; border: none; } 
+
+.body #submit { 
+	width: 100%; 
+	padding: 10px; 
+	margin-bottom: 10px; 
+	background-image: linear-gradient(to right, #FFE5E5,#FFD1DA); 
+	font-size: 1.3rem; 
+	border-radius: 5px; 
+	color: black; 
+	font-weight: bold; 
+	transition: scale 0.3s ease-in-out; 
+} 
+
+.body #editSection{ 
+	width: 100%; 
+	display: flex; 
+	gap: 25px; 
+	justify-content: space-between; 
+} 
+
+.body #editSection > button { 
+	width: 100%; 
+	padding: 10px; 
+	margin-bottom: 10px; 
+	font-size: 1.3rem; 
+	border-radius: 5px; 
+	color: white; 
+	font-weight: bold; 
+	transition: scale 0.3s ease-in-out; 
+} 
+
+.body #updateEntry { background-image: 
+	linear-gradient(to right, #FFD4D4, #FFACC7); } 
+
+.body #cancelEdit{ background-color: #F2BED1; } 
+
+.body #submit:hover, #updateEntry:hover, #cancelEdit:hover { scale: 1.02; } 
+
+.body .hidden{ display: none !important; } 
+
+.body .edit, .delete{ 
+	margin: 0 auto; 
+	padding: 5px 10px; 
+	font-size: 1.1rem; 
+	border-radius: 5px; 
+	background-color: transparent; 
+	color: white; 
+	border: 1px solid white; 
+} 
+
+.body .edit:hover, .delete:hover{ 
+	background-color:#FFE5E5; 
+} 
+
+.body table { 
+	width: 100%; 
+	border-collapse: collapse; 
+	position: relative; 
+	overflow: hidden; 
+} 
+
+.body tr{
+	color: black;
+}
+
+.body th, 
+.body td { 
+	text-align: center; 
+	padding: 10px; 
+	border: 0; 
+} 
+.body tr:nth-child(even) { 
+	background-color: #FFE5E5; 
+} 
+
+.body tr:nth-child(odd) { 
+	background-color: #FFE5E5;  
+} 
+
+.body th { 
+	font-size: 0.9rem; 
+	background-color: #FFDFDF; 
+} 
+
+.body tbody > tr:hover{ 
+	background-color: #FEBBCC; 
+	color: black; 
+	transition: all 0.4s smooth;
+} 
+
+.delete-animation{ 
+	background-color: #FEBBCC !important; 
+	animation: deleteAnimate 0.4s linear forwards; 
+} 
+
+@keyframes deleteAnimate{ 
+	to{ 
+		transform: translateX(100%); 
+	} 
+}
+
+
+
+
+
+
+
+
+

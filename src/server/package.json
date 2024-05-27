@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "server": "nodemon src/server/server.js",
+    "client": "react-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

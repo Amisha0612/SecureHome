@@ -1,0 +1,556 @@
+body {
+    /* margin: 0 150px; */
+    /* font-family: 'Kumbh Sans', sans-serif; */
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    overflow-y: scroll;
+    /* Add the ability to scroll */
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    margin: 0 120px;
+    display: flex;
+    position: relative;
+    width: 80%;
+    top: 30px;
+    height: fit-content;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    /* font-family: ; */
+    font-size: 24px;
+    left: 30px;
+    font-weight: bold;
+}
+
+nav {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    /* margin-right: 100px; */
+}
+
+ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: #494848;
+    font-size: 16px;
+}
+
+#hero {
+    margin: 0 150px;
+    display: flex;
+    position: relative;
+    width: 80vw;
+    height: 90vh;
+    /* border-bottom: 1px solid black; */
+}
+
+.text-heading {
+    display: block;
+    position: relative;
+    top: 150px;
+    width: 50%;
+    font-size:35px;
+    line-height: 75px;
+    /* font-weight: 600; */
+}
+
+.sub-heading {
+    display: block;
+    top: 450px;
+    width: 45%;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.hero-img {
+    display: block;
+    position: relative;
+    width: 650px;
+    height: 600px;
+    top: 150px;
+    /* right: 0; */
+}
+
+.hero-img img {
+    display: block;
+    position: absolute;
+    width: 650px;
+    height: 450px;
+    letter-spacing: normal;
+}
+
+.btn-group {
+    display: block;
+    position: absolute;
+    top: 580px;
+    /* width: 100%; */
+    text-align: center;
+}
+
+.btn-group .btn {
+    padding: 15px 26px;
+    border-radius: 25px;
+    background-color: #555;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 7px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.btn Link {
+    text-decoration: none;
+    color: white;
+    padding: 13px 7;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    background-color: #55555519;
+    margin: 0px;
+    width: 100vw;
+    height: 120vh;
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    width: 79vw;
+    height: 80vh;
+    /* max-width: 1170px; */
+    margin: 0 auto;
+    padding: 80px 50px;
+    /* border: 1px solid black; */
+}
+
+.text-box {
+    position: relative;
+    display: block;
+    width: fit-content;
+    left: 250px;
+    min-height: 10px;
+    padding: 10px 0 20px 0;
+    font-size: 18px;
+    font-weight: 400;
+    bottom: 10px;
+}
+
+.text-block {
+    position: absolute;
+    display: flex;
+    top: 120px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.text {
+    position: relative;
+    display: block;
+    margin-right: 140px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.columns-2 {
+    margin-left: 0;
+    display: flex;
+    position: absolute;
+    padding-top: 150px;
+    width: 100%;
+    height: fit-content;
+}
+
+.column-1 {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.column-1 p {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: fit-content;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+
+.heading {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: fit-content;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 67px;
+    padding-bottom: 28px;
+}
+
+.btn-get {
+    top: 200px;
+    position: absolute;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    color: #333;
+    border: none;
+    padding: 15px 26px;
+    border-radius: 25px;
+    background-color: #555555ea;
+}
+
+.btn-get a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 0px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.column-2 {
+    position: relative;
+    display: flex;
+    width: 44%;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+.column-2 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.columns-3 {
+    position: absolute;
+    top: 500px;
+    display: flex;
+    padding: 20px 0;
+    width: 90%;
+    height: 200px;
+}
+
+.column {
+    position: relative;
+    display: block;
+    width: 33%;
+    height: 240px;
+    min-height: 20px;
+    padding: 42px 24px;
+    border-radius: 4px;
+    background-color: #fff;
+    row-gap: 6px;
+    /* border: 1px solid black; */
+    margin: 0 10px;
+}
+
+.column a {
+    text-decoration: none;
+    color: black;
+}
+
+.column img {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+#c1 img {
+    height: 50px;
+    padding-bottom: 22px;
+}
+
+.column .h4 {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    /* padding-top: 9px;
+    padding-bottom: 10px; */
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.column p {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: fit-content;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.container3 {
+    height: 60vh;
+    width: 100vh;
+    /* display: flex; */
+}
+
+.sub-container3 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: auto;
+    padding: 80px 16px 80px 60px;
+    align-content: center;
+    overflow: visible;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.section-container {
+    position: relative;
+    display: block;
+    /* width: 1300px;
+    height: fit-content; */
+    /* width: fit-content; */
+    width: 1500px;
+    height: fit-content;
+    overflow: visible;
+    padding: 32px;
+}
+
+p.para {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.section-container1 {
+    /* position: relative; */
+    /* display: flex; */
+    /* width: 100%; */
+    /* max-width: 500px; */
+    /* height: fit-content;
+    padding: 36px;
+    overflow: visible;
+    border:1px solid #555;
+    margin-left: 200px; */
+    /* margin-top: 100px; */
+
+    margin-left: 100px;
+    border: 1px solid black;
+    /* padding-left: 150px; */
+    margin-top: 80px;
+    /* padding-right: 150px; */
+    height: 300px;
+    width: 500px;
+}
+
+p.para1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+    line-height: 32px;
+}
+
+.containerNew3 {
+    background-color: #fff8f8ff;
+    width: 1550px;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.containerNew3 div a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.hone {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Kumbh Sans;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.cardNew {
+    display: flex;
+    z-index: 1;
+    margin: 0px;
+    height: 370px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    column-gap: 0px;
+    row-gap: 8px;
+    background-color: #ffffffff;
+    box-shadow: 0px 4px 8px 0px #00000014;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cardNew img {
+    height: 160px;
+    object-fit: fill;
+}
+
+#mysaheli .paraNew {
+    margin-bottom: 70px;
+}
+
+.paraNew {
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 26px;
+    margin-left: 20px;
+}
+
+.paraOne {
+    display: block;
+    z-index: 1;
+    width: fit-content;
+    height: 20px;
+    margin: 15px 0px 0px 0px;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    font-family: "Kumbh Sans";
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    padding: 0px 20px 20px 20px;
+}
+
+.containerQuestion {
+    display: flex;
+    width: 99.8611%;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    padding: 100px 32px 32px 32px;
+    flex-direction: column;
+    /* row-gap: 32px; */
+}
+
+.containerQuestionchild1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* margin: 0px; */
+    position: relative;
+    flex-direction: column;
+    /* row-gap: 10px; */
+    /* padding: .05px */
+}
+
+.spanChild {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    /* line-height: 32px; */
+}
+
+.spanChild2 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    /* line-height: 28px; */
+}
+
+.FirstlistDiv li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footerDiv {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 1980px;
+    padding: 48px 0px 0px 0px;
+    overflow: visible;
+    font-family: Nunito Sans;
+}
+
+.footDiv {
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 12px;
+    font-family: Nunito Sans;
+}
+
+.checked {
+    color: orange;
+}
